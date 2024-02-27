@@ -1,0 +1,42 @@
+main{
+    width:900px;
+    margin:auto;/*要素を中央にそろえる*/
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;/*自動折り返しにする*/
+}
+
+.card{
+    width:250px;
+    box-shadow:6px 5px #e2e2e2;
+    border-radius:6px;
+    margin-right:20px;
+    margin-bottom:30px;
+    padding:5px;
+    border:solid 1px #cacaca;
+    text-align:center;/*中央揃えにする*/
+}
+
+.card a{
+    background-color:cornflowerblue;
+    padding: 10px 25px;/*2つの値を渡すと, 上下に10px, 左右に25pxの余白をつける*/
+    text-decoration:none;
+    color:white;
+    border-radius:5px;
+    box-shadow: 1px 1px lightgrey;
+    border:none;
+    margin-right:5px;
+    display:inline-block;
+}
+
+.card p{
+    text-align:left;/*内部を左揃えにする*/
+    padding: 0px 20px;
+}
+
+.button{
+    text-align:left;/*内部を左揃えにする*/
+    padding: 0px 20px;
+}
